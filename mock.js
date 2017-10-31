@@ -1,0 +1,1 @@
+import './apps/mk-app-templat/mock.js';
