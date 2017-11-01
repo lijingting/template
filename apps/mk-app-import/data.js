@@ -2,12 +2,11 @@ export function getMeta() {
 	return {
 		name: 'root',
 		component: 'Layout',
-		className: 'mk-app-root',
+		className: 'import',
 		children: [{
 			name: 'header',
-			component: 'Layout',
-			className: 'mk-app-root-left-header',
-			children: '导入模版'
+			component: 'Button',
+			children: '选择文件'
 		}]
 	}
 }
